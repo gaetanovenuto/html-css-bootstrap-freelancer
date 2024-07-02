@@ -1,7 +1,9 @@
 /*************************************************** 
     UTILITIES
 ****************************************************/
-
+.my-width {
+    max-width: 60%;
+}
 
 /********************* 
     BACKGROUND COLORS
@@ -22,13 +24,14 @@
     background-color:#FFFFFF;
 }
 
-.my-darkgrey {
-    background-color:#2C3E50;
-}
 
 /********************* 
     TEXT
 **********************/
+
+.my-link-green {
+    color: #1ABC9C;
+}
 
 /********************* 
     CONTAINERS

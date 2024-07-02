@@ -10,7 +10,7 @@
     min-height: 500px;
 }
 
-.my-image {
+.header-bottom .my-image {
     width: 200px;
 }
 
@@ -40,8 +40,8 @@
     PORTFOLIO SECTION
 ******************************/
 
-.portfolio .container-sm {
-    padding-top: 50px;
+.portfolio .container-md {
+    padding: 50px 0;
 }
 
 .portfolio .icon hr {
@@ -54,9 +54,97 @@
     width: calc(30% + 1.5rem);
 }
 
+.portfolio .my-image {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.portfolio .my-image img {
+    border-radius: 10px;
+}
+
+.my-row {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+/***************************** 
+    ABOUT SECTION
+******************************/
+
+.about {
+    min-height: 500px;
+    padding: 50px 0;
+}
+
+.about .icon hr {
+    border: 2px solid white;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+/***************************** 
+    CONTACT-ME SECTION
+******************************/
+
+.contact-me .icon hr {
+    border: 2px solid black;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.contact-me {
+    min-height: 500px;
+    padding: 50px 0;
+}
+
+.contact-me .form {
+    margin: 0 auto;
+}
+
+.no-border {
+    border: none;
+}
+
 /*************************************************** 
     FOOTER SECTION
 ****************************************************/
+/***************************** 
+    FOOTER-TOP SECTION
+******************************/
+.footer-top {
+    min-height: 300px;
+    padding: 50px 0;
+}
+
+.footer-top [class*="footer-"] {
+    padding-bottom: 50px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/***************************** 
+    FOOTER-BOTTOM SECTION
+******************************/
+
+.footer-bottom {
+    padding: 50px 0;
+}
 
 
 
@@ -85,10 +173,38 @@
     .navbar-toggler {
         display: none;
     }
+
+    .portfolio .my-image,
+    .about .my-col {
+        width: calc(100% / 2);
+        padding: 20px 10px;
+    }
+
+    .footer-top .container-md {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-top .my-row {
+        width: calc(100% / 3);
+        padding: 20px 10px;
+    }
+
 }
 
 
 /********************* 
     DESKTOP (>992px)
 **********************/
+@media screen and (min-width: 992px) {
 
+    .portfolio .my-image {
+        width: calc(100% / 3);
+        padding: 20px 10px;
+    }
+
+    .contact-me .my-width,
+    .portfolio .my-width {
+        max-width: 80%;
+    }
+}
