@@ -2,9 +2,29 @@
     UTILITIES
 ****************************************************/
 
+
 /********************* 
     BACKGROUND COLORS
 **********************/
+.my-grey {
+    background-color: #2C3E50;
+}
+
+.my-lightgreen {
+    background-color: #1ABC9C;
+}
+
+.my-darkblue {
+    background-color: #3A546D;
+}
+
+.my-white {
+    background-color:#FFFFFF;
+}
+
+.my-darkgrey {
+    background-color:#2C3E50;
+}
 
 /********************* 
     TEXT
