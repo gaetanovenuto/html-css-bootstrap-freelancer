@@ -26,18 +26,33 @@
     width: calc(30% + 1.5rem);
 }
 
-.icon hr {
+.header-bottom .icon hr {
     border: 2px solid white;
     opacity: 1;
     border-radius: 5px;
-    
 }
 
 /*************************************************** 
     MAIN SECTION
 ****************************************************/
 
+/***************************** 
+    PORTFOLIO SECTION
+******************************/
 
+.portfolio .container-sm {
+    padding-top: 50px;
+}
+
+.portfolio .icon hr {
+    border: 2px solid black;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.portfolio .icon span {
+    width: calc(30% + 1.5rem);
+}
 
 /*************************************************** 
     FOOTER SECTION
